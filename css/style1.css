@@ -1,4 +1,4 @@
-:root {
+body{
 	box-sizing: border-box;
 	font-family: monospace;
 	font-size: 16px;
@@ -6,23 +6,13 @@
 	padding: 0;
 	margin:0;
 	scroll-behavior: smooth;
-	/**CAJAS**/
 	display: flex;
-	flex-flow: row wrap;
-	/**CONTENIDO*/
+	flex-flow: column wrap;
 	justify-content: space-between;
-	/**EJE SECUNDARIO**/
 	align-items: baseline;
-	/**ELEMENTOS DEL CONTENIDO**/
 	align-content: space-evenly;
-}
-body{
 	background-image: linear-gradient( rgb(90, 173, 255),white 20%);
-	margin:0;
-
 }
-
-
 
 header{
 	width: 100%;
@@ -34,10 +24,12 @@ header{
 .head-box{
 	height: 75%;
 	padding: 0px;
-	background: url("./head1.jpg") center / 100% 100% no-repeat; 
+	border: solid purple 4px;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
+
 }
 
 
@@ -102,24 +94,18 @@ header{
 
 /*1ro*/
 .logo2{
-	width: 220px;
-	height: 100px;
+	width: 20vw;
+	height: 65%;
+	background: url("../img/MCM.jpeg") center / 100% 100% no-repeat;
+
+	
 }
 /*2do*/
 .logo1{ 
-	text-align: center;
-	height: 90%;
-	width: 8%;
-	margin-top: 1vw;
+	align-self: flex-start;
 	color: black;
 }
-/*3ro*/
-.search{
-	width: auto;
-	height: auto;
-	transform: translate(-50%,-50%);
-	margin-top: 55px;
-}
+
 
 input.src{
 	padding: 9px 10px 9px 32px;
