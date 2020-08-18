@@ -175,13 +175,11 @@ input.src{
 /*-------------------------------------------------------------------------------------------------------------*/
 
 .contened{
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
-	flex-flow: column wrap;
-	justify-content: center; /*Fila*/
-	align-items: center; /*Columna*/
-	margin-top: 5vh;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+	margin:0;
 	border: solid blue 3px;
 }
 .soon{
@@ -189,28 +187,7 @@ input.src{
 	height: auto;
 }
 
-.art{
-	padding: 0;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: center;
-	height: 50vh;
 
-}
-.resum{
-	width: 50%;
-	height: 100%;
-	padding: 6%;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: space-around;
-	align-content: flex-end;
-
-}
 .text1{
 	font-size: 2.5em;
 	height: fit-content;
