@@ -75,10 +75,6 @@ header{
 	padding: 0;
 	background: linear-gradient(45deg, rgb(90, 173, 255 ),white,rgb(90, 173, 255 ),white,rgb(90, 173, 255));
 }
-/*1ro*/
-.logo2{
-
-}
 
 .logo1{ 
 	align-self: flex-start;
@@ -104,7 +100,7 @@ input.src{
 
 .contenedor {
 	width: 90%;
-	border: solid yellow 3px;
+	border: solid green 3px;
 
 }
 /* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
