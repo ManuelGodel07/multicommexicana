@@ -56,8 +56,6 @@ header{
 .menu-link:hover{
 	color: black;
 }
-
-
 .menu .menu-item{
 	text-decoration: none;
 	list-style: none;
@@ -83,7 +81,7 @@ header{
 	height: 65%;
 	background: url("../img/MCM.jpeg") center / 100% 100% no-repeat;	
 }
-/*2do*/
+
 .logo1{ 
 	align-self: flex-start;
 	color: black;
@@ -94,9 +92,8 @@ input.src{
 	border-radius: 25px;
 	color: #444;
 	border: 2px solid black;
-	width: 15vw;
-	height: 5vh;
-	transition: all .5s;
+	width: 30vw;
+	height: 100%;
 }
 
 
