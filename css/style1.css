@@ -30,7 +30,7 @@ header{
 
 }
 .element{	
-	height: 25%;
+
 	font-size: 1em;
 	background: linear-gradient(45deg, rgb(90, 173, 255 ),white,rgb(90, 173, 255 ),rgb(90, 173, 255 ),white,rgb(90, 173, 255));
 }
