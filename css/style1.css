@@ -365,26 +365,16 @@ input.src{
 
 
 .farewell{
-	color: whitesmoke;
 	display: flex;
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	flex-flow: row wrap;
-	height: 200px;
 	justify-content: space-around;
-	background: linear-gradient( 45deg,rgb(9, 46, 146) 50%, rgb(234, 184, 27 ) 50%);
 	border: solid brown 3px;
 }
 .final-botton1{
-	height: 20%;
-	text-decoration: none;
+	color:black;
+	scroll-behavior: smooth;
 }
 .final-botton2{
-	height: 80%;
-	background: linear-gradient(45deg, rgb(7, 29, 104),black,rgb(7, 29, 104),rgb(7, 29, 104),black,rgb(7, 29, 104));
-	text-align: center;
-	line-height: 2rem;
-	text-align-last: center;
-	scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
