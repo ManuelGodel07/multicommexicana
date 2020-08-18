@@ -210,14 +210,12 @@ input.src{
 	justify-content: center;
 	align-items: center;
 	margin:0;
-	border: solid blue 3px;
 }
 
 
 
 .text1{
 	font-size: 1.5em;
-	border:solid red 4px;
 	height: 50%;
 	width: 50%;
 }
@@ -243,7 +241,6 @@ input.src{
 	flex-flow: row wrap;
 	justify-content: space-around;
 	text-decoration: none;
-	border: solid green 3px;
 }
 
 
@@ -277,7 +274,6 @@ input.src{
 
 .tables{
 	padding: 1em;
-	border: solid aqua 3px;
 }
 
 .Marcas{
@@ -345,7 +341,6 @@ input.src{
 	display: -ms-flexbox;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	border: solid lightcoral 3px;
 
 }
 .contact-table{
