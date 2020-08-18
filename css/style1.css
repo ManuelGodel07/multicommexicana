@@ -206,39 +206,35 @@ input.src{
 
 .contened{
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column wrap;
 	justify-content: center;
-	align-content: center;
+	align-items: center;
 	margin:0;
 	border: solid blue 3px;
 }
+
+
+
+.text1{
+	font-size: 1.5em;
+	border:solid red 4px;
+	height: 50%;
+	width: 50%;
+}
+
+
+.multimedia{
+	height: 50%;
+	width: 50%;
+}
+
+
+
+
 .soon{
 	width: 90%;
 	height: auto;
 }
-
-
-.text1{
-	font-size: 2.5em;
-	height: fit-content;
-	width: fit-content;
-}
-.text2{
-	font-size: 2em;
-	height: fit-content;
-	width: 80%;
-}
-
-.multimedia{
-	height: 100%;
-	align-items: center;
-
-}
-
-
-
-
-
 .intel{
 	height: 45vh;
 	display: flex;
