@@ -31,7 +31,7 @@ header{
 .element{	
 
 	font-size: 1em;
-	background: linear-gradient(45deg, rgb(90, 173, 255 ),white,rgb(90, 173, 255 ),rgb(90, 173, 255 ),white,rgb(90, 173, 255));
+	background: linear-gradient(45deg, rgb(90, 173, 255),white,rgb(90, 173, 255),rgb(90, 173, 255 ),white,rgb(90, 173, 255));
 }
 .menu{
 	display: flex;
@@ -356,18 +356,23 @@ input.src{
 }
 
 
-
+a{
+	text-decoration: none;
+	color: black;
+}
 
 
 .farewell{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	border: solid brown 3px;
+	text-decoration: none;
+
 }
 .final-botton1{
 	color:black;
 	scroll-behavior: smooth;
+
 }
 .final-botton2{
 scroll-behavior: smooth;
