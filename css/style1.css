@@ -95,26 +95,13 @@ input.src{
 
 
 
-/*------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------*/
-
-.contenedor {
-	margin: auto;
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-
 /* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
 .conteiner .contenedor-principal {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-between;
 	position: relative;
-	width: 90%;
+	width: 100%;
 
 }
 .conteiner .contenedor-principal .flecha-izquierda,
