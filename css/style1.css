@@ -11,7 +11,7 @@ body{
 	font-family: monospace;
 	font-size: 16px;
 	scroll-behavior: smooth;
-	background: linear-gradient(180deg,white 20%, rgb(153, 194, 241) 40%,white 100%);
+	background: linear-gradient(180deg,white 20%, rgb(153, 194, 241));
 }
 header{
 	width: 100%;
@@ -38,14 +38,9 @@ input.src{
 	width: 35vw;
 	height: 50%;
 }
-
-
-
-
 .element{	
-
 	font-size: 1em;
-	background: linear-gradient(45deg, rgb(90, 173, 255),white,rgb(90, 173, 255),rgb(90, 173, 255 ),white,rgb(90, 173, 255));
+	background: rgb(184, 216, 248);
 }
 .menu{
 	display: flex;
@@ -95,23 +90,19 @@ input.src{
 
 
 
-
-
-
-
 /* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
 .conteiner .contenedor-principal {
 	display: flex;
-	flex-direction: row;
+	flex-flow: row wrap;
 	justify-content: space-between;
 	position: relative;
 	width: 100%;
-
+	align-items: center;
 }
+
 .conteiner .contenedor-principal .flecha-izquierda,
 .conteiner .contenedor-principal .flecha-derecha {
 	position: absolute;
-	border: none;
 	height: 20%;
 	width: 4%;
 	cursor: pointer;
@@ -167,11 +158,16 @@ input.src{
 
 /*---- ----- ----- Media Queries ----- ----- -----*/
 @media screen and (max-width: 800px) {
+	.conteiner .contenedor-principal {
+		align-items: center;
+	}
 	.conteiner .contenedor-carousel .carousel .pic {
 		min-width: 40%;
 		min-height: 100%;
 		transition: .3s ease all;
 		box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+		align-items: center;
+
 	}
 	.conteiner .contenedor-principal .flecha-izquierda,
 	.conteiner .contenedor-principal .flecha-derecha {
