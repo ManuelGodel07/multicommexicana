@@ -1,33 +1,47 @@
 body{
-	box-sizing: border-box;
-	font-family: monospace;
-	font-size: 16px;
-	text-align: justify;
 	padding: 0;
 	margin:0;
-	scroll-behavior: smooth;
+	box-sizing: border-box;
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: space-between;
+	text-align: justify;
 	align-items: center;
 	align-content: space-evenly;
-	background: linear-gradient(180deg, white 30%, rgb(148, 225, 245) 40%, white);
+	font-family: monospace;
+	font-size: 16px;
+	scroll-behavior: smooth;
+	background: linear-gradient(180deg,white 20%, rgb(153, 194, 241) 40%,white 100%);
 }
-
 header{
 	width: 100%;
 }
-
-
 .head-box{
 	height: 75%;
 	padding: 0px;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-
 }
+.logo{
+	width: 100px;
+	height: 100px;
+}
+
+input.src{
+	outline: none;
+	font-size: 1.5em;
+	border-radius: 25px;
+	color: #444;
+	border: 2px solid black;
+	width: 35vw;
+	height: 50%;
+}
+
+
+
+
 .element{	
 
 	font-size: 1em;
@@ -75,19 +89,9 @@ header{
 	background: linear-gradient(45deg, rgb(90, 173, 255 ),white,rgb(90, 173, 255 ),white,rgb(90, 173, 255));
 }
 
-.logo1{ 
-	align-self: flex-start;
-	color: black;
-}
-input.src{
-	outline: none;
-	font-size: 1.5em;
-	border-radius: 25px;
-	color: #444;
-	border: 2px solid black;
-	width: 35vw;
-	height: 100%;
-}
+
+
+
 
 
 
