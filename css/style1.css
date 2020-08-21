@@ -62,7 +62,7 @@ input.src{
  
 }
 .menu-link:hover{
-	color: black;
+	font-weight: bold;
 }
 .menu .menu-item{
 	text-decoration: none;
