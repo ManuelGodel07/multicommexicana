@@ -273,49 +273,10 @@ input.src{
 }
 
 .Marcas .brother-1{
-	width: 150px;
-	height: 150px;
-
+	width: 200px;
+	height: 200px;
+	margin: 8px;
 }
-.brother-1:first-child{
-	background: url(../img/lg.jpg)center / cover no-repeat;
-}
-.brother-1:nth-child(2){
-	background: url(../img/Samsung.png)center / cover no-repeat;
-}
-.brother-1:nth-child(3){
-	background: url(../img/Apple.png)center / cover no-repeat;
-}
-.brother-1:nth-child(4){
-	background: url(../img/motorola.png)center / cover no-repeat;
-}
-.brother-1:nth-child(5){
-	background: url(../img/huawei.jpg)center / cover no-repeat;
-}
-.brother-1:nth-child(6){
-	background: url(../img/nokia.png)center / cover no-repeat;
-}
-.brother-1:nth-child(7){
-	background: url(../img/alcatel.png)center / cover no-repeat;
-}
-.brother-1:nth-child(8){
-	background: url(../img/soyericsson.jpg)center / cover no-repeat;
-}
-.brother-1:nth-child(9){
-	background: url(../img/htc.jpg)center / cover no-repeat;
-}
-.brother-1:nth-child(10){
-	background: url(../img/xiaomi.png)center / cover no-repeat;
-}
-.brother-1:nth-child(11){
-	background: url(../img/lenovo.png)center / cover no-repeat;
-}
-.brother-1:nth-child(12	){
-	background: url(../img/Lanix.png)center / cover no-repeat;
-}
-
-
-
 
 
 
