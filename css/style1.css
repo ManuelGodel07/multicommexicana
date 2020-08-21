@@ -81,7 +81,7 @@ input.src{
 	z-index: 2;
 	list-style: none;
 	padding: 0;
-	background: linear-gradient(45deg, rgb(90, 173, 255 ),white,rgb(90, 173, 255 ),white,rgb(90, 173, 255));
+	background: rgb(184, 216, 248);
 }
 
 
@@ -223,8 +223,6 @@ input.src{
 .intel{
 	height: 45vh;
 	display: flex;
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	text-decoration: none;
