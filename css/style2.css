@@ -1,7 +1,8 @@
 body{
     font-size: 16px;
     font-family: monospace;
-    text-align: center;
+	text-align: center;
+	background: url("../img/globo.png") center / 100% no-repeat;
 }
 iframe{
     width: 100%;
