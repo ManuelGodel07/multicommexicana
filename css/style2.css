@@ -25,12 +25,68 @@ iframe{
 	align-items:center;
 
 }
-.modal-box{
+.modal-box-insurgentes{
 	width: 50vw;
 	height: 50vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items:center;
-	background-color: rgba(201, 209, 220, .5);
+	background: url(../img/fonTel.png) 100% center no-repeat;
+	color: blanchedalmond;
+}
+.modal-box-oriente{
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background: url(../img/fonTel.png) 100% center no-repeat;
+	color: blanchedalmond;
+}
+.modal-box-tlatelolco{
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background: url(../img/fonTel.png) 100% center no-repeat;
+	color: blanchedalmond;
+}
+.modal-box-tepeyac{
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background: url(../img/fonTel.png) 100% center no-repeat;
+	color: blanchedalmond;
+}
+.modal-box-atizapan{
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background: url(../img/fonTel.png) 100% center no-repeat;
+	color: blanchedalmond;
+}
+
+.modal-box-galerias{
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background: url(../img/fonTel.png) 100% center no-repeat;
+	color: blanchedalmond;
+}
+a{
+	text-decoration: none;
+	color: blanchedalmond;
 }
