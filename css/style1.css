@@ -98,7 +98,7 @@ input.src{
 	width: 100%;
 	align-items: center;
 	position: relative;
-	border: solid red 4px;
+	height: 35vh;
 }
 
 .conteiner .contenedor-principal .flecha-izquierda,
