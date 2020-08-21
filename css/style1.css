@@ -95,9 +95,10 @@ input.src{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	position: relative;
 	width: 100%;
 	align-items: center;
+	position: relative;
+	border: solid red 4px;
 }
 
 .conteiner .contenedor-principal .flecha-izquierda,
@@ -121,7 +122,6 @@ input.src{
 /* ---- ----- ----- Carousel ----- ----- ----- */
 .conteiner .contenedor-carousel {
 	width: 100%;
-	height: 40vh;
 	overflow: hidden;
 	scroll-behavior: smooth;
 }
