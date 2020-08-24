@@ -297,22 +297,23 @@ scroll-behavior: smooth;
 /*---- ----- ----- Media Queries ----- ----- -----*/
 @media screen and (max-width: 2000px) {
 	header{
-		height: 30vh;
+		height: 17.5em;
+		font-size: 0.8em;
 	}
 	.logo{
-		width: 450px;
-		height: 200px;
+		width: 20em;
+		height: 7em;
 	}
 	.head-box{
-		height: 70%;
+		height: 50%;
 	}
 	.element{
-		height: 20%;
+		height: 50%;
 		font-size: 2em;
 	}
 	.conteiner .contenedor-principal {
 		align-items: center;
-		height: 40vh;
+		height: 15em;
 	}
 	.conteiner .contenedor-carousel{
 		height: inherit;
@@ -395,7 +396,6 @@ scroll-behavior: smooth;
 @media screen and (max-width: 75em) {
 	header{
 		height: 20em;
-		border: solid red 3px;
 	}
 	.logo{
 		width: 17em;
@@ -611,16 +611,24 @@ scroll-behavior: smooth;
 		margin: 5px;
 		padding: 0;
 	}
-	.Marcas .brother-1{
-		width: 300px;
-		height: 100px;
-		margin: 4px;
+	.brother-1{
+		width: 1em;
+		height: 1em;
+		margin: .5em;
 	}
-
-
-
+	.contact-table{
+		font-size: 0.9em;	
+		}
+	.contact .contact-table h1{
+		font-size: 1.1em;
+	}
 	.final-botton1, .final-botton2{
 		font-size: 1em;
 	}
+
+}
+/***********************************************************************************************/
+@media screen and (max-width: 20em) {
+
 
 }
