@@ -394,13 +394,14 @@ scroll-behavior: smooth;
 
 /***********************************************************************************************/
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 75em) {
 	header{
-		height: 30vh;
+		height: 20em;
+		border: solid red 3px;
 	}
 	.logo{
-		width: 280px;
-		height: 150px;
+		width: 17em;
+		height: 9em;
 	}
 	.head-box{
 		height: 50%;
@@ -413,100 +414,125 @@ scroll-behavior: smooth;
 }
 
 
+
 /***********************************************************************************************/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 64em) {
+	header{
+		height: 24em;
+		font-size: 0.7em;
+	}
 	.logo{
-		width: 325px;
-		height: 150px;
+		width: 15em;
+		height: 7em;
 	}
 	input.src{
 		width: 25vw;
 	}
 	.conteiner .contenedor-principal {
 		align-items: center;
-		height: 30vh;
+		height: 12em;
 	}
 	.conteiner .contenedor-carousel{
 		height: inherit;
 	}
 	.contened{
-		height: 600px;
+		height: 30em;
 		width: 80%;
 		display: flex;
 		flex-flow: column wrap;
 		justify-content: space-between;
 		align-items: center;
 	}
-
+	.intel{
+		height: 13em;
+		margin:0;
+		padding: 0;
+	}
 	.multimedia{
 		height: 60%;
 		width: 100%;
-
 	}
 	
 	.multimedia iframe{
 		height: 100%;
 		width: 100%;
-	
 	}
 	.text1{
 		height: 40%;
 		width: 80%;
 		font-size: 1.5em;
-
 	}
-	.intel{
-		height: 30vh;
+	.contact-table{
+		font-size: 1.2em;
+		}
+	.contact .contact-table h1{
+		font-size: 2em;
+	}
+}
+/***********************************************************************************************/
+
+@media screen and (max-width: 48em) {
+	header{
+		height: 18em;
+	}
+	.element{
+		font-size: 2.5em;
+	}
+
+	.head-box .logo{
+		width: 15em;
+		height: 8em;
+	}
+
+	input.src{
+		width: 25vw;
+		height: 1em;
+	}
+
+	.menu-item .menu-link{
+		font-size: .8em;
+	}
+	.conteiner .contenedor-principal {
+		align-items: center;
+		height: 9em;
+	}
+	.conteiner .contenedor-carousel{
+		height: inherit;
 	}
 	
-}
-/***********************************************************************************************/
-
-@media screen and (max-width: 875px) {
-
-.menu-item .menu-link{
-	font-size: .8em;
-}
-.conteiner .contenedor-principal {
-	align-items: center;
-	height: 25vh;
-}
-.conteiner .contenedor-carousel{
-	height: inherit;
-}
-
-.logo{
-	width: 250px;
-	height: 100px;
-}
-.contact, .contact-table{
-	padding: 0;
-}
-.intel{
-	height: 25vh;
-}
-.tables .Marcas .brother-1{
-	width: 150px;
-	height: 150px;
-	margin: 8px;
-}
-.contact-table{
-	font-size: 1em;
-
+	.contact, .contact-table{
+		padding: 0;
 	}
-.contact .contact-table h1{
-	font-size: 2em;
-}
-.final-botton1, .final-botton2{
-	font-size: 2em;
-}
+	.intel{
+		height: 13em;
+	}
+	.tables .Marcas .brother-1{
+		width: 6em;
+		height: 6em;
+		margin: 8px;
+	}
+	.contact-table{
+		font-size: 1em;
+	}
+	.tables h4{
+		font-size: 3em;
+	}
+	.tables p{
+		font-size: 1.5em;
+	}
+
+	.contact .contact-table h1{
+		font-size: 2em;
+	}
+	.final-botton1, .final-botton2{
+		font-size: 1em;
+	}
 }
 /***********************************************************************************************/
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 37.5em) {
 	.logo{
-		width: 150px;
-		height: 75px;
+		width: 10%;
+		height: 4.5em;
 	}
 	.conteiner .contenedor-principal {
 		align-items: center;
@@ -540,33 +566,5 @@ scroll-behavior: smooth;
 		font-size: 1.5em;
 	}
 }
-/***********************************************************************************************/
-	@media screen and (max-width: 320px) {
-		header{
-			height: 35vh;
-		}
-		.logo{
-			width: 100px;
-			height: 75px;
-		}
-		.src{
-			align-self: baseline;
-		}
-		.element{
-			font-size: 1.2em;
-		}
-		.intel{
-			height: 40vh;
-		}
-		.brother{
-			width: 100px;
-			height: 100px;
-			margin: 5px;
-			padding: 0;
-		}
-		.final-botton1, .final-botton2{
-			font-size: 1em;
-		}
 
-	}
 
