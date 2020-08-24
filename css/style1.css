@@ -536,9 +536,27 @@ scroll-behavior: smooth;
 	.final-botton1, .final-botton2{
 		font-size: 1.5em;
 	}
+}
 	@media screen and (max-width: 420px) {
-	
+		.logo{
+			width: 100px;
+			height: 75px;
+		}
+		.src{
+			align-self: baseline;
+		}
+		.element{
+			font-size: .9em;
+		}
+		.intel{
+			height: 30vh;
+		}
+		.tables .Marcas .brother-1{
+			width: 150px;
+			height: 150px;
+			margin: 5px;
+		}
+
 
 	}
 
-}
