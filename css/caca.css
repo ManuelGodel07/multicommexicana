@@ -3,33 +3,5 @@
 
 
 
-/***********************************************************************************************/
-	@media screen and (max-width: 320px) {
-		header{
-			height: 35vh;
-		}
-		.logo{
-			width: 100px;
-			height: 75px;
-		}
-		.src{
-			align-self: baseline;
-		}
-		.element{
-			font-size: 1.2em;
-		}
-		.intel{
-			height: 40vh;
-		}
-		.brother{
-			width: 100px;
-			height: 100px;
-			margin: 5px;
-			padding: 0;
-		}
-		.final-botton1, .final-botton2{
-			font-size: 1em;
-		}
 
-	}
 
