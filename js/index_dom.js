@@ -1,17 +1,5 @@
-function hamburguerMenu(panelBtn,panel,menuLink){
-    const d= document;
+import hamburguerMenu from "./hamburguesa";
 
-    d.addEventListener("click", (e) => {
-        if(e.target.matches(panelBtn) || e.target.matches(`${panelBtn} *`)){
-        d.querySelector(panel).classList.toggle("is-active");
-        d.querySelector(panelBtn).classList.toggle("is-active");
-        }
-        if(e.target.matches(menuLink)){
-            d.querySelector(panel).classList.remove("is-active");
-            d.querySelector(panelBtn).classList.remove("is-active");
-        }
-    });
-}
 const d= document;
 d.addEventListener("DOMContentLoaded",(e)=>{
     hamburguerMenu(".panel-btn",".panel",".menu a");
