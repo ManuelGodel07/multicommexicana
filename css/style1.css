@@ -109,7 +109,7 @@ input.src{
 	cursor: pointer;
 	z-index: 500;
 	transition: .2s ease all;
-
+	color: black;
 }
 
 .conteiner .contenedor-principal .flecha-izquierda {
@@ -337,7 +337,7 @@ scroll-behavior: smooth;
 		cursor: pointer;
 		z-index: 500;
 		transition: .2s ease all;
-		color: white;
+		color: black;
 	}
 		.conteiner .contenedor-principal .flecha-izquierda:hover,
 		.conteiner .contenedor-principal .flecha-derecha:hover {
