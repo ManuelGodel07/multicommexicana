@@ -13,7 +13,7 @@
 	align-content: space-evenly;
 }
 body{
-    background: url(../images/work.png) center / cover no-repeat;
+    background: url(../img/work.png) center / cover no-repeat;
     height: 100vh;
 }
 table{
@@ -24,4 +24,14 @@ table{
 }
 td{
     border: 1px solid gray;
+}
+.face{
+    border: solid purple 2px;
+
+}
+.first{
+    border: solid red 2px;
+}
+.users{
+    border: solid blue 2px;
 }
