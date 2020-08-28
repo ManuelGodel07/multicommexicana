@@ -1,7 +1,12 @@
+body{
+    background: url(../img/evaluation.png) 100% center no-repeat;
+}
 form {
-    width: 250px;
+    width: 100%;
     margin: 0;
-    height: 100px;
+}
+.table{
+    margin:0;
 }
   #form p {
     text-align: center;
@@ -33,7 +38,14 @@ form {
     color: orange;
   }
 
-.act1{
-    border: solid red 3px;
-    height: 200px;
+
+.parametro{
+    display: flex;
+    flex-flow: row wrap;
+}
+.title{
+    width: 20%;
+}
+.estrellas{
+    width: 30%;
 }
