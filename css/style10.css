@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	margin:0;
+	padding: 0;
+	scroll-behavior: smooth;
+	display: flexbox;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	align-content: space-evenly;
+}
+body{
+    background: url(../images/work.png) center / cover no-repeat;
+    height: 100vh;
+}
+table{
+    border: 4px solid black;
+    color: black;
+    padding: 4px;
+    width: 75%;
+}
+td{
+    border: 1px solid gray;
+}
