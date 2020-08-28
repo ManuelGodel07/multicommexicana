@@ -61,9 +61,7 @@ input.src{
 	display: block;
  
 }
-.menu-link:hover{
-	font-weight: bold;
-}
+
 .menu .menu-item{
 	text-decoration: none;
 	list-style: none;
@@ -296,22 +294,24 @@ scroll-behavior: smooth;
 
 
 /*---- ----- ----- Media Queries ----- ----- -----*/
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 125em) {
 	header{
-		height: 17.5em;
-		font-size: 0.8em;
+		height: 16em;
+	}
+	.head-box{
+		height: 75%;
+	}
+	.element{
+		height: 25%;
 	}
 	.logo{
 		width: 20em;
 		height: 7em;
 	}
-	.head-box{
-		height: 50%;
+	.menu-item .menu-link{
+		font-size: 1.5em;
 	}
-	.element{
-		height: 50%;
-		font-size: 2em;
-	}
+
 	.conteiner .contenedor-principal {
 		align-items: center;
 		height: 15em;
@@ -408,6 +408,9 @@ scroll-behavior: smooth;
 	.element{
 		height: 50%;
 		font-size: 2em;
+	}
+	.menu-item .menu-link{
+		font-size: 1em;
 	}
 
 }
