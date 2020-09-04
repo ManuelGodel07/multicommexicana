@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color:red;
+    color:black;
 }
 
 body {
@@ -94,7 +94,7 @@ a.button:hover {
     left: 0;
     width: 40px;
     height: 40px;
-    background: #4FC1B7;
+    background: rgba(43, 92, 253);
 }
 .logo img {
     position: absolute;
@@ -129,7 +129,7 @@ a.button:hover {
     -moz-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
-    border-top: 1px solid #4FC1B7;
+    border-top: 1px solid rgba(43, 92, 253);
 }
 .user .actions {
     margin: 1em 0 0;
@@ -264,16 +264,16 @@ a.button:hover {
     padding: .2em 3em;
     width: auto;
     display: block;
-    background-color: #28A55F;
+    background-color: rgba(43, 92, 253);
     border: none;
     color: #fff;
     cursor: pointer;
     font-size: .8em;
     border-radius: 0px;
-    background: rgba(62,181,169,1) 0%;
+    background: rgba(43, 92, 253,1) 0%;
 }
 .form-wrap form .button:hover {
-    background-color: #4FDA8C;
+    background-color: rgba(43, 92, 253);
 }
 .recovery p.mssg {
     opacity: 0;
@@ -294,10 +294,10 @@ a.button:hover {
     margin: 0 auto;
     width: 100%;
     height: 40px;
-    background: -moz-linear-gradient(90deg, rgba(62,181,169,1) 0%, rgba(111,226,204,1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(111,226,204,1)), color-stop(100%, rgba(62,181,169,1)));
-    background: -webkit-linear-gradient(90deg, rgba(62,181,169,1) 0%, rgba(111,226,204,1) 100%);
-    background: linear-gradient(0deg, rgba(62,181,169,1) 0%, rgba(111,226,204,1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(43, 92, 255,1) 0%, rgb(43, 170, 255) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(43, 92, 253,1)), color-stop(100%, rgba(43, 92, 253,1)));
+    background: -webkit-linear-gradient(90deg, rgb(43, 92, 253,1) 0%, rgba(43, 170, 255,1) 100%);
+    background: linear-gradient(0deg, rgb(43, 92, 253,1) 0%, rgba(43, 170, 255,1) 100%);
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -545,7 +545,7 @@ input {
 .form-wrap a {
     color: #ccc;
     padding-bottom: 4px;
-    border-bottom: 1px solid #5FD1C1;
+    border-bottom: 1px solid rgb(43, 92, 253);
 }
 .form-wrap a:hover {
     color: #fff;
@@ -578,7 +578,7 @@ input {
 }
 .form-wrap .tabs h3 a.active span {
     padding-bottom: 4px;
-    border-bottom: 1px solid #5FD1C1;
+    border-bottom: 1px solid rgb(43, 92, 253);
 }
 .form-wrap .tabs-content {
     padding: 1.5em 3em;
@@ -664,7 +664,7 @@ input {
     opacity: 0;
     content: '';
     background-color: transparent;
-    border: solid #67DAC6;
+    border: solid rgb(255, 255, 255);
     border-width: 0 0 3px 3px;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
