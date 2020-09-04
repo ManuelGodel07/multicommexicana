@@ -71,12 +71,12 @@
                     </div>
                     <div class="tabs-content">
                         <div id="login-tab-content" class="active">
-                            <form class="login-form" action="" method="POST">
-                                <input type="text" class="input" id="user_login" autocomplete="off" placeholder="Correo electronico">
-                                <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="contraseña">
+                            <form class="login-form" action="../php/index1.php" method="POST" enctype="application/x-www-form-urlencoded">
+                                <input type="text" name="nombre_txt" class="input" id="user_login" autocomplete="off" placeholder="Correo electronico">
+                                <input type="password" name="password_txt" class="input" id="user_pass" autocomplete="off" placeholder="contraseña">
                                 <input type="checkbox" class="checkbox" checked id="remember_me">
                                 <label for="remember_me">Recordar contraseña</label>
-                                <input type="submit" value="Iniciar sesión" class="button">
+                                <input type="submit" name="enviar_btn" value="Iniciar sesión" class="button">
                             </form>
                             <div class="help-action">
                                 <p><i class="fa fa-arrow-left" aria-hidden="true"><a href="#" class="forgot">¿Olvidaste tu contraseña?</a></i></p>
@@ -99,7 +99,9 @@
             </div>
         </div>
     </div>
-
+    <?php
+    include("conexion.php")
+    ?>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="../Jquery/script2.js"></script>
 </body>
