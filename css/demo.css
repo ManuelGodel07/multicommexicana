@@ -175,11 +175,10 @@ body{background: #191919  }
   height: 100%;
 }
 
-.form form 
-lable,
-input[type="text"],
-input[type="email"],
-input[type="password"] {
+
+#input[type="text"],
+#input[type="email"],
+#input[type="password"] {
   display: block;
 }
 
@@ -195,10 +194,10 @@ p.terms {
   margin-bottom: 60px;
 }
 
-.form form 
-input[type="text"],
-input[type="email"], 
-input[type="password"] {
+
+#input[type="text"],
+#input[type="email"], 
+#input[type="password"] {
   color: #fff;
   width: 100%;
   border: none;

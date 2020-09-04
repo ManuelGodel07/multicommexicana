@@ -259,20 +259,19 @@ a.button:hover {
     font-family: inherit;
     color: #666;
 }
-.recovery form .button {
+#boton{
     margin: 1em 0;
     padding: .2em 3em;
     width: auto;
     display: block;
-    background-color: rgba(43, 92, 253);
     border: none;
     color: #fff;
     cursor: pointer;
     font-size: .8em;
     border-radius: 0px;
-    background: rgba(43, 92, 253,1) 0%;
+    background: rgb(81, 122, 255) 0%;
 }
-.form-wrap form .button:hover {
+#boton:hover {
     background-color: rgba(43, 92, 253);
 }
 .recovery p.mssg {
@@ -595,7 +594,7 @@ input {
 .form-wrap .tabs-content .active {
     display: block !important;
 }
-.form-wrap form .input {
+#entrada{
     margin: 0 0 .8em 0;
     padding: .8em 2em 10px 0;
     width: 100%;
@@ -610,7 +609,7 @@ input {
     font-family: inherit;
     color: #fff;
 }
-.form-wrap form .button {
+.form-wrap form .boton {
     margin: 1em 0;
     padding: .2em 3em;
     width: auto;

@@ -72,11 +72,11 @@
                     <div class="tabs-content">
                         <div id="login-tab-content" class="active">
                                 <form name="envia_form" action="index1.php" class="login-form" method="POST" enctype="application/x-www-form-urlencoded">
-                                    <input type="text" name="nombre_txt" class="input" id="user_login" autocomplete="off" placeholder="Correo electronico">
-                                    <input type="password" name="password_txt" class="input" id="user_pass" autocomplete="off" placeholder="contraseña">
+                                    <input type="text" name="nombre_txt" id="entrada" id="user_login" autocomplete="off" placeholder="Correo electronico">
+                                    <input type="password" name="password_txt" id="entrada" id="user_pass" autocomplete="off" placeholder="contraseña">
                                     <input type="checkbox" class="checkbox" checked id="remember_me">
                                     <label for="remember_me">Recordar contraseña</label>
-                                    <input type="submit" name="enviar_btn" value="Iniciar sesión" class="button">
+                                    <input type="submit" name="enviar_btn" value="Iniciar sesión" id="boton">
                                 </form>
                             <div class="help-action">
                                 <p><i class="fa fa-arrow-left" aria-hidden="true"><a href="#" class="forgot">¿Olvidaste tu contraseña?</a></i></p>
@@ -84,10 +84,10 @@
                         </div>
                         <div id="signup-tab-content">
                             <form class="signup-form" action="#" method="post">
-                                <input type="email" class="input" id="user_email" autocomplete="off" placeholder="Correo">
-                                <input type="text" class="input" id="user_name" autocomplete="off" placeholder="Nombre de usuario">
-                                <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Contraseña">
-                                <input type="submit" class="button" value="Registrarme">
+                                <input type="email" id="entrada" id="user_email" autocomplete="off" placeholder="Correo">
+                                <input type="text" id="entrada" id="user_name" autocomplete="off" placeholder="Nombre de usuario">
+                                <input type="password" id="entrada" id="user_pass" autocomplete="off" placeholder="Contraseña">
+                                <input type="submit" id="boton" value="Registrarme">
                             </form>
                             <div class="help-action">
                                 <p>Llena los datos para registrarte</p>
