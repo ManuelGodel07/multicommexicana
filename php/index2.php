@@ -10,6 +10,11 @@
     <title>Recursos Humanos</title>
 </head>
 <body>
+    <?php
+        include("conexion.php");
+        $conexion = $base->query("SELECT * FROM datos_usuarios");
+        $registros = $conexion->FetchAll(PDO::FETCH_OBJ);
+    ?>
     <!----<a href="index17.html">usuario</a>
     <a href="index18.html">revisión</a>-->
     <div class="login">
@@ -71,7 +76,7 @@
                     </div>
                     <div class="tabs-content">
                         <div id="login-tab-content" class="active">
-                                <form name="envia_form" action="index1.php" class="login-form" method="POST" enctype="application/x-www-form-urlencoded">
+                                <form name="envia_form" action="#" class="login-form" method="POST" enctype="application/x-www-form-urlencoded">
                                     <input type="text" name="nombre_txt" id="entrada" id="user_login" autocomplete="off" placeholder="Correo electronico">
                                     <input type="password" name="password_txt" id="entrada" id="user_pass" autocomplete="off" placeholder="contraseña">
                                     <input type="checkbox" class="checkbox" checked id="remember_me">
@@ -83,10 +88,10 @@
                             </div>
                         </div>
                         <div id="signup-tab-content">
-                            <form class="signup-form" action="#" method="post">
-                                <input type="email" id="entrada" id="user_email" autocomplete="off" placeholder="Correo">
-                                <input type="text" id="entrada" id="user_name" autocomplete="off" placeholder="Nombre de usuario">
-                                <input type="password" id="entrada" id="user_pass" autocomplete="off" placeholder="Contraseña">
+                            <form class="signup-form" action="insertar.php" method="post">
+                                <input type="email" name="user_email" id="entrada" id="user_email" autocomplete="off" placeholder="Correo">
+                                <input type="text" name="user_name" id="entrada" id="user_name" autocomplete="off" placeholder="Nombre de usuario">
+                                <input type="password" name="user_pass" id="entrada" id="user_pass" autocomplete="off" placeholder="Contraseña">
                                 <input type="submit" id="boton" value="Registrarme">
                             </form>
                             <div class="help-action">
