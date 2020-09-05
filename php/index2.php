@@ -10,11 +10,7 @@
     <title>Recursos Humanos</title>
 </head>
 <body>
-    <?php
-        include("conexion.php");
-        $conexion = $base->query("SELECT * FROM datos_usuarios");
-        $registros = $conexion->FetchAll(PDO::FETCH_OBJ);
-    ?>
+
     <!----<a href="index17.html">usuario</a>
     <a href="index18.html">revisión</a>-->
     <div class="login">
