@@ -14,7 +14,7 @@
     } catch (Exception $e) {
         echo"error mul";
         die('Error' . $e->getMessage());
-        alert("Linea del error" . $e->getLine());
+        echo("Linea del error" . $e->getLine());
     } 
     mysqli_close($base)
         
