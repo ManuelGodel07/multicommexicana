@@ -69,7 +69,7 @@
                 -->
                 <div class="form-wrap">
                     <div class="tabs">
-                        <h3 class="login-tab"><a href="#login-tab-content" class="log-in active"><span>Iniciar sesión</span></a></h3>
+                        <h3 class="login-tab"><a href="html\index17.html" class="log-in active"><span>Iniciar sesión</span></a></h3>
                         <h3 class="signup-tab"><a href="#signup-tab-content" class="sign-up"><span>Registrarse</span></a></h3>
                     </div>
                     <div class="tabs-content">
