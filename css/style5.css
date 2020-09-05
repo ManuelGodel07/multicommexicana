@@ -6,5 +6,28 @@ body{
 
 }
 .table{
-    border: solid red 4px;
+    width: 100%;
+}
+.datos{
+    width: 100%;
+}
+.funciones1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.funciones2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.funciones3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.funciones4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
