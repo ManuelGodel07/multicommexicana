@@ -19,7 +19,7 @@
 
 /* General Demo Style */
 body {
-	background: #e4ebe9 url(../img/fancy_deboss.png) repeat top left;
+	background: #e4ebe9 url(../img/unsplash.jpg) repeat top left;
 	color: #444;
 	font-family: "PT Sans Narrow", Arial, sans-serif;
 	font-size: 13px;
@@ -37,7 +37,7 @@ a {
 h1, h2, h5 {
 	margin: 20px 20px 30px 20px;
 	font-size: 56px;
-	color: #fff;
+	color: rgba(0, 0, 0, 0.616);
 	font-family: "Volkhov", serif;
 	text-align: center;
 	font-weight: 700;
@@ -48,7 +48,7 @@ h1 span, h5 {
 	font-size: 18px;
 	display: block;
 	font-style: italic;
-	color: #997f5a;
+	color: #0000009d;
 	font-weight: 400;
 	text-shadow: 0px 1px 1px #fff;
 }
