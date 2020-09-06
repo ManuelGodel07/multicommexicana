@@ -15,7 +15,7 @@
 }
 
 .sb-description h3 a {
-	color: #4a3c27;
+	color: #a2b6ee9c;
 	text-shadow: 0 1px 1px rgba(255,255,255,0.5);
 }
 
@@ -26,7 +26,7 @@
 .nav-arrows a {
 	width: 42px;
 	height: 42px;
-	background: #cbbfae url(../img/nav.png) no-repeat top left;
+	background: #0022e0 url(../img/nav.png) no-repeat top left;
 	position: absolute;
 	top: 50%;
 	left: 2px;
@@ -64,7 +64,7 @@
 	height: 16px;
 	border-radius: 50%;
 	margin: 3px;
-	background: #cbbfae;
+	background: #abbbe69c;
 	cursor: pointer;
 	box-shadow: 
 		0 1px 1px rgba(255,255,255,0.6), 
@@ -91,7 +91,7 @@
 .nav-options span {
 	width: 30px;
 	height: 30px;
-	background: #cbbfae url(../img/options.png) no-repeat top left;
+	background: #abbbe69c url(../img/options.png) no-repeat top left;
 	text-indent: -9000px;
 	cursor: pointer;
 	opacity: 0.7;
