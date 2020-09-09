@@ -49,3 +49,12 @@ form {
 .estrellas{
     width: 30%;
 }
+
+
+
+
+
+.clasificacion-tr {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
